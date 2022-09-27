@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titulo -->
+
+    <title>Sinergia</title>
+
+    <!-- FontAwesome -->
+
+    <script src="https://kit.fontawesome.com/2134c11f77.js" crossorigin="anonymous"></script>
+
+    <!-- Estilo -->
+
+    <link rel="shortcut icon" href="imagens/Logo-mini.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="estilo/estilo.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- Caixa de contato -->
+
+    <div class="bg-dark text-light pb-3">
+        <div class="container d-flex pt-3">
+
+            <div class="d-flex me-auto justify-content-around">
+                <div class="icone-contato">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="icone-contato">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icone-contato">
+                    <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                </div>
+                <div class="icone-contato">
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="icone-contato">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div id="contato-sup" class="d-flex">
+                <div class="mb-3 me-4 info">
+                    <i class="fa-solid fa-phone pe-2"></i>(75) 99880-2624
+                </div>
+                <div class="mb-3 me-4 info">
+                    <i class="fa-regular fa-envelope pe-2"></i>Email: contato@sinergiasee.com.br
+                </div>
+                <div class="info">
+                    <i class="fa-regular fa-clock pe-2"></i>Funcionamento: 8:00h - 18:00h
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="imagens/Logo.png" width="110px" height="80px" alt="Logo">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#caixa-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="caixa-menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a id="quem-somos" class="nav-link" href="#">QUEM SOMOS</a></li>
+                    <li class="nav-item"><a id="servicos" class="nav-link" href="#">SERVIÇOS</a></li>
+                    <li class="nav-item"><a id="portfolio" class="nav-link" href="#">PORTFÓLIO</a></li>
+                    <li class="nav-item"><a id="clientes" class="nav-link" href="#">NOSSOS CLIENTES</a></li>
+                    <li class="nav-item"><a id="contato" class="nav-link" href="#">CONTATO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Capa do site -->
+
+    <header id="capa" class="capa">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="img-capa imagem-capa1">
+                    <div class="caixa-capa">
+                        <h1>PROJETE SEU EMPREENDIMENTO</h1>
+                        <p>Projete sua obra, evite retrabalhos e economize</p>
+                        <button class="botao botao-mais mb-3">Saiba mais</button>
+                        <button class="botao botao-principal">Comece já</button>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="img-capa imagem-capa2">
+                    <div class="caixa-capa">
+                        <h1>CONHEÇA NOSSO PORTFÓLIO</h1>
+                        <p>Baixe nosso portfólio e conheça mais sobre nossa empresa e nossos clientes atendidos</p>
+                        <button class="botao botao-principal">Portfólio</button>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="img-capa imagem-capa3">
+                    <div class="caixa-capa">
+                        <h1>CONSULTORIA</h1>
+                        <p>Identificamos suas necessidades e propomos soluções eficientes</p>
+                        <button class="botao botao-principal">Serviços</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev botao-slider" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon btn-icone" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next botao-slider" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Corpo principal -->
+
+    <main id="corpo">
+
+        <!-- Seção de serviços -->
+
+        <section class="servicos">
+            <h2 class="titulo">SERVIÇOS</h2>
+            <img src="imagens/tomada.png" width="350px" class="logo-titulo" alt="titulo">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="caixa-servico">
+                        <div class="icone-servicos"><i class="fa-regular fa-lightbulb"></i></div>
+                        <h3>Consultoria</h3>
+                        <p class="p-3">Identificamos e propomos soluções eficientes para as suas necessidades</p>
+                        <a href="">Leia mais</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="caixa-servico">
+                        <div class="icone-servicos"><i class="fa-solid fa-solar-panel"></i></div>
+                        <h3>Energia Solar</h3>
+                        <p>Trabalhamos com os mais diversos tipos de projetos da área de engenharia elétrica</p>
+                        <a href="">Leia mais</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="caixa-servico">
+                        <div class="icone-servicos"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3>Projeto e Execução</h3>
+                        <p>Trabalhamos com os mais diversos tipos de projetos da área de engenharia elétrica</p>
+                        <a href="">Leia mais</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="caixa-servico">
+                        <div class="icone-servicos"><i class="fa-solid fa-bolt-lightning"></i></div>
+                        <h3>Laudos</h3>
+                        <p>Fazemos vistorias e elaboramos laudos em conformidade com as normas vigentes</p>
+                        <a href="">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de apresentação -->
+
+        <section class="quem-somos container">
+            <h2 class="titulo">SOBRE NÓS</h2>
+            <img src="imagens/tomada.png" width="400px" class="logo-titulo" alt="titulo">
+            <div class="row">
+                <div class="col-md-6 qualificacoes">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-briefcase icone-apresentacao"></i>
+                        <div>
+                            <h3>Missão</h3>
+                            <p>Garantir a excelência no atendimento ao cliente, propondo soluções inovadoras, assegurando a criação de valor e a sustentabilidade do negócio.</p>
+                        </div>
+                    </div>
+                    <hr class="text-primary">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-pen-fancy icone-apresentacao"></i>
+                        <div>
+                            <h3>Visão</h3>
+                            <p>Ser referência de excelência nos serviços que prestamos.</p>
+                        </div>
+                    </div>
+                    <hr class="text-primary">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-thumbtack icone-apresentacao"></i>
+                        <div>
+                            <h3>Valores</h3>
+                            <p>Em primeiro lugar, a segurança das pessoas.</p>
+                            <p>Excelência com simplicidade.</p>
+                            <p>Refletir os mais altos padrões de ética.</p>
+                            <p>Gerenciamento consistente e focado.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 contato-apresentacao">
+                    <div class="caixa-contato mt-5">
+                        <h3>ENTRE EM CONTATO</h3>
+                        <div class="inputs">
+                            <input class="input-contato" type="text" name="nome" id="nome" placeholder="Nome">
+                            <input class="input-contato" type="email" name="email" id="email" placeholder="Email">
+                            <input class="input-contato" type="text" name="assunto" id="assunto" placeholder="Assunto">
+                            <textarea class="input-mensagem" name="mensagem" id="mensagem" cols="30" rows="1" placeholder="Mensagem"></textarea>
+                        </div>
+                        <button class="botao-envia">ENVIAR</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de clientes -->
+
+        <section class="clientes">
+            <h2 class="titulo">NOSSOS CLIENTES</h2>
+            <img src="imagens/tomada.png" width="450px" class="logo-titulo" alt="titulo">
+            <div class="slider bg-white pt-5 m-0">
+                <div class="logo-cliente">
+                    <img src="imagens/icones-exposicao/ma-almeida.png" alt="">
+                </div>
+                <div class="logo-cliente">
+                    <img src="imagens/icones-exposicao/asa.png" alt="">
+                </div>
+                <div class="logo-cliente">
+                    <img src="imagens/icones-exposicao/casas-bahia.png" alt="">
+                </div>
+                <div class="logo-cliente">
+                    <img src="imagens/icones-exposicao/globalpack.png" class="mt-3" alt="">
+                </div>
+                <div class="logo-cliente mt-5">
+                    <img src="imagens/icones-exposicao/IHEF.png" alt="">
+                </div>
+                <div class="logo-cliente mt-3">
+                    <img src="imagens/icones-exposicao/Logo_Canaa.png" alt="">
+                </div>
+                <div class="logo-cliente mt-4">
+                    <img src="imagens/icones-exposicao/Sesi.png" alt="">
+                </div>
+                <div class="logo-cliente">
+                    <img src="imagens/icones-exposicao/Tasa.png" alt="">
+                </div>
+                <div class="logo-cliente">
+                    <img src="imagens/icones-exposicao/TNT.png" alt="">
+                </div>
+                <div class="logo-cliente">
+                    <img src="imagens/icones-exposicao/unef.png" alt="">
+                </div>
+                <div class="logo-cliente">
+                    <img src="imagens/icones-exposicao/uniao-medica.jfif" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+
+    <footer class="bg-dark">
+        <div class="container row">
+            <div class="col-md-4 caixa-footer quem me-auto mb-5">
+                <h3>Sobre nos</h3>
+                <hr class="cor-linha">
+                <p class="mb-5">Somos uma empresa de desenvolvimento de soluções em Engenharia Elétrica</p>
+                <div class="icones">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="icones">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icones">
+                    <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                </div>
+                <div class="icones">
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="icones">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
+            </div>
+            <div class="col-md-4 caixa-footer serv mb-3">
+                <h3>Nossos serviços</h3>
+                <hr class="cor-linha">
+                <ul>
+                    <li><i class="fa-solid fa-bolt text-warning"></i><a href="">Baixa tensão</a></li>
+                    <li><i class="fa-solid fa-bolt text-warning"></i><a href="">Subestação</a></li>
+                    <li><i class="fa-solid fa-bolt text-warning"></i><a href="">Padrão de entrada</a></li>
+                    <li><i class="fa-solid fa-bolt text-warning"></i><a href="">SPDA</a></li>
+                    <li><i class="fa-solid fa-bolt text-warning"></i><a href="">Rede de distribuição</a></li>
+                    <li><i class="fa-solid fa-bolt text-warning"></i><a href="">Cabeamento estruturado</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 caixa-footer cont">
+                <h3>Contato</h3>
+                <hr class="cor-linha">
+                <p>Você pode entrar em contato conosco</p>
+                <div class="mb-3 contato-link">
+                    <i class="fa-solid fa-phone pe-2"></i> (75) 99880-2624
+                </div>
+                <div class="mb-3 contato-link">
+                    <i class="fa-regular fa-envelope pe-2"></i> Email: contato@sinergiasee.com.br
+                </div>
+                <div class="contato-link">
+                    <i class="fa-regular fa-clock pe-2"></i> Funcionamento: 8:00h - 18:00h
+                </div>          
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script/script.js"></script>
+    
+</body>
+</html>

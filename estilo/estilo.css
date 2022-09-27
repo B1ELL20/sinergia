@@ -1,0 +1,759 @@
+/* Fontes */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* ESTILOS GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cor-linha {
+    color: orange;
+}
+
+/* ESTILO CAIXA CONTATO */
+
+.icone-contato {
+    padding: 0px 10px;
+}
+
+.icone-contato a {
+    color: white;
+}
+
+.icone-contato a:hover {
+    color: white;
+}
+
+.info {
+    font-size: 12px;
+}
+
+/* ESTILOS MENU */
+
+#caixa-menu {
+    font-weight: 500;
+}
+
+#caixa-menu a {
+    font-family: 'Lato', sans-serif;
+    padding: 10px 15px;
+}
+
+#caixa-menu a:hover {
+    color: orange;
+}
+
+.logo {
+    background-image: url(imagens/Logo.png);
+}
+
+/* ESTILO CAPA */
+
+/*///// HOME /////////*/
+
+
+.botao-slider {
+    width: 5% !important;
+}
+
+.caixa-capa {
+    padding: 12% 10% 10% 7%;
+    color: white;
+}
+
+.caixa-capa h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.651);
+}
+
+.caixa-capa p {
+    width: 60%;
+    font-size: 24px;
+    padding-bottom: 30px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.651);
+}
+.botao {
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 0px 10px;
+}
+
+.botao-mais {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.botao-mais:hover {
+    color: orange;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.botao-principal {
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;
+}
+
+.img-capa {
+    height: 90vh;
+}
+
+.imagem-capa1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.719), rgba(255, 255, 255, 0.096)), url(../imagens/Painel.webp);
+    background-size: cover;
+}
+
+.imagem-capa2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.719), rgba(255, 255, 255, 0.096)), url(../imagens/Eletricista-poste.webp);
+    background-size: cover;
+}
+
+.imagem-capa3 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.719), rgba(255, 255, 255, 0.096)), url(../imagens/Eletricista.webp);
+    background-size: cover;
+}
+
+/*///// PORTFOLIO  /////////*/
+
+.capa-portfolio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/electrician-ga12888e86_1280.jpg);
+    background-position: center;
+}
+
+.botao-download {
+    font-size: 25px;
+    background-color: rgb(20, 99, 179);
+    color: white;
+    padding: 20px;
+    display: block;
+    margin: 100px auto;
+    border: none;
+}
+
+.botao-download:hover {
+    background-color: rgb(18, 86, 155);
+}
+
+.texto-portfolio h2 {
+    font-size: 50px;
+}
+
+.texto-portfolio p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.portfolio {
+    padding-top: 10%;
+}
+
+.portfolio img {
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+}
+
+/*//////// CONTATO //////*/
+
+.capa-contato {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/capa-contato.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gm {
+    font-size: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+.gm h3 {
+    color: rgb(18, 86, 155);
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 30px 0px;
+}
+
+.mapa {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.tabela {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.icones-tabela {
+    color: rgb(18, 86, 155);
+}
+
+tr {
+    display: block;
+    padding: 10px;
+}
+
+/*//////// SOBRE NOS //////*/
+
+.capa-sobre-nos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/capa-sobre-nos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre-nos {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.conteudo-sn {
+    margin-top: 3px;
+}
+
+.caixa-sn {
+    display: flex;
+}
+
+.box-sn {
+    width: 50%;
+    padding: 10px;
+}
+
+.caixa-sn h3 {
+    color: rgb(18, 86, 155);
+    padding-top: 5px;
+}
+
+.caixa-sn p {
+    color: rgb(85, 85, 85);;
+    font-size: 18px;
+}
+
+.icone-sn {
+    color: rgb(18, 86, 155);
+    font-size: 35px;
+    padding: 0px 10px;
+}
+
+.nossa-historia {
+    padding-top: 10%;
+    background-color: rgb(250, 250, 250);
+}
+
+.conteudo-historia {
+    border-left: 2px solid rgb(18, 86, 155);
+    margin: 0px 10%;
+    padding-left: 20px;
+}
+
+.img-hitoria {
+    margin-bottom: 10%;
+}
+
+.conteudo-historia p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*//////// SERVICOS //////*/
+
+.capa-servicos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/capa-servicos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.servico-box {
+    margin: 5% 0px;
+    padding: 5%;
+    text-align: center;
+}
+
+.servico-box h3 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: rgb(18, 86, 155);
+}
+
+.servico-box p {
+    font-size: 20px;
+    color: rgb(160, 160, 160);
+}
+
+.servico-imagem img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.qualidade-servicos {
+    background-image: linear-gradient(rgba(18, 87, 155, 0.7), rgb(18, 86, 155, 0.7)), url(../imagens/fundo-qualidades.jpg);
+    background-size: cover;
+    height: 45vh;
+    padding: 30px;
+    margin: 5% 0px;
+}
+
+.caixa-qualidades {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+
+.subcaixa-qualidade {
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    color: white;
+}
+
+.icone-qualidade {
+    padding-right: 10px;
+    font-size: 60px;
+}
+
+.conteudo-qualidade {
+    padding-top: 10px;
+}
+
+.serv-inv {
+    background-color:  rgb(240, 240, 240);
+}
+
+.serv-inv p {
+    color:  rgb(140, 140, 140)
+}
+
+/*//////// CLIENTES //////*/
+
+.capa-clientes {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/capa-clientes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-clientes {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.tipo-cliente {
+    width: 15%;
+}
+
+.tipo-cliente button {
+    border: 2px solid rgb(18, 86, 155);
+    background-color: white;
+    color: rgb(18, 86, 155);
+    width: 100%;
+    padding: 10px;
+}
+
+.tipo-cliente button:hover {
+    background-color: rgb(18, 86, 155);
+    color: white;
+}
+
+.btn-ativo {
+    background-color: rgb(18, 86, 155) !important;
+    color: white !important;
+}
+
+.caixa-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caixa-logo {
+    margin: 20px 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ESTILOS CORPO PRINCIPAL */
+
+.servicos {
+    background-color: rgb(241, 241, 241);
+}
+
+.servicos, .quem-somos {
+    padding: 100px 20px;
+}
+
+.inv {
+    background-color: rgb(241, 241, 241);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+}
+
+.logo-titulo {
+    display: block;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.caixa-servico {
+    background-color: white;
+    padding: 50px 20px;
+    width: 95%;
+    text-align: center;
+}
+
+.caixa-servico p {
+    color: lightgrey;
+    padding: 15px;
+
+}
+
+.caixa-servico a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(20, 99, 179);
+}
+
+.quem-somos > p {
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.icone-servicos {
+    margin: auto;
+    margin-bottom: 10px;
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    padding-top: 10px;
+    color: white;
+    background-color: rgb(20, 99, 179);
+    border-radius: 100%;
+}
+
+.qualificacoes {
+    width: 50%;
+}
+
+.qualificacoes p {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.contato-apresentacao {
+    width: 40%;
+}
+
+.caixa-contato {
+    margin-top: 5%;
+    padding: 30px;
+    background: linear-gradient(rgba(20, 100, 179, 0.8), rgba(20, 100, 179, 0.8)), url(../imagens/fundo-contato.jpg);
+    background-size: cover;
+}
+
+.caixa-contato h3 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.inputs {
+    margin: auto;
+}
+
+.input-contato {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    height: 30px;
+    padding: 20px;
+    border: none;
+}
+
+.input-mensagem {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border: none;
+}
+
+.botao-envia {
+    margin-top: 5%;
+    padding: 5px 40px;
+    margin-left: 40px;
+    border: none;
+    color: white;
+    background-color: orange;
+    font-weight: 500;
+}
+
+.icone-apresentacao {
+    padding: 10px 30px;
+    font-size: 40px;
+    color: rgb(20, 99, 179);
+}
+
+.qualificacoes h3 {
+    color: rgb(20, 99, 179);
+}
+
+.logo-cliente {
+    height: 200px !important;
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+.logo-cliente img {
+    margin: auto;
+    width: 100%;
+}
+
+.clientes {
+    background-color: rgb(241, 241, 241);
+    padding: 150px 0px;
+}
+
+.slick-next {
+    width: 0px !important;
+}
+
+.slick-prev {
+    left: -45px !important;
+}
+
+/* ESTILOS RODAPÉ */
+
+footer {
+    padding: 50px 10px;
+    color: white;
+}
+
+.icones {
+    margin: 0px 5px ;
+    padding-top: 2px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+.quem {
+    width: 30%;
+}
+
+.quem a {
+    color: white;
+}
+
+.quem a:hover {
+    color: orange;
+}
+
+.serv {
+    width: 20%;
+}
+
+.serv ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.serv li {
+    padding: 2px 0px;
+}
+
+.serv a {
+    text-decoration: none;
+    padding: 10px;
+    color: white; 
+}
+
+.serv a:hover {
+    color: orange;
+}
+
+.cont {
+    width: 25%;
+}
+
+.contato-link:hover {
+    color: orange;
+    pointer-events: initial;
+}
+
+#baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+    display: block;
+    width: 450px;
+}
+
+@media (max-width: 1050px) {
+    #baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+        display: block;
+        width: 400px;
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .serv-inv {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .qualidade-servicos {
+        height: 75vh;
+    }
+
+    #baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+        display: block;
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .caixa-servico {
+        margin: auto;
+        margin-top: 5%;
+        width: 95% !important;
+    }
+
+    h1 {
+        font-size: 35px !important;
+    }
+
+    .img-capa {
+        height: 70vh;
+    }
+
+    .caixa-capa {
+        padding-top: 15%;
+        padding-left: 10%;
+    }
+
+    .caixa-capa p {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 35px;
+    }
+    
+    .logo-titulo {
+        width: 70%;
+    }
+
+    .img-logo {
+        margin-left: 100px;
+    }
+
+    .serv-inv {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .qualidade-servicos {
+        height: 70vh;
+    }
+
+    .tipo-cliente {
+        margin: 5% 0px;
+        width: 40%;
+    }
+
+    .mapa-iframe {
+        display: block;
+        margin: auto;
+        width: 95%;
+    }
+
+    .gm h3 {
+        text-align: center;
+    }
+
+    #baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+        display: block;
+        width: 330px;
+    }
+
+    #img-logo  img{
+        display: block;
+        margin: 50px auto;
+        width: 300px;
+    }
+
+    .caixa-logo {
+        width: 100%;
+    }
+
+    .img-cliente {
+        height: 200px;
+        display: block;
+        margin: auto;
+    }
+
+    .img-logo-grande {
+        height: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .img-logo-mt-grande {
+        height: 50px;
+        display: block;
+        margin: auto;
+    }    
+}
+
+@media (max-width: 380px) {
+    .qualidade-servicos {
+        height: 85vh;
+    }
+
+    #img-logo  img{
+        display: block;
+        margin: 50px auto;
+        width: 300px;
+    }
+
+    #baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+        display: block;
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    #baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+        display: block;
+        width: 230px;
+    }
+
+    .qualidade-servicos {
+        height: 90vh;
+    }
+
+    #img-portfolio {
+        width: 250px;
+    }
+}
