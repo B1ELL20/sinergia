@@ -4,7 +4,7 @@ $(document).ready(() => {
 
     $('#quem-somos').on('click', () => {
         $('#quem-somos').addClass('link-ativo');
-        $.get('./capas/capa-quem-somos.html', data => {
+        $.get('https://b1ell20.github.io/sinergia/capas/capa-quem-somos.html', data => {
             $('#capa').html(data)
         })
         $.get('../corpos/quem-somos.html', data => {
@@ -14,7 +14,7 @@ $(document).ready(() => {
 
     $('#servicos').on('click', () => {
         $('#servicos').addClass('link-ativo');
-        $.get('../capas/capa-servicos.html', data => {
+        $.get('sinergia/capas/capa-servicos.html', data => {
             $('#capa').html(data)
         })
         $.get('../corpos/servicos.html', data => {
