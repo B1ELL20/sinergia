@@ -24,7 +24,7 @@ $(document).ready(() => {
 
     $('#portfolio').on('click', () => {
         $('#portfolio').addClass('link-ativo');
-        $.get('../capas/capa-portfolio.html', data => {
+        $.get('./capas/capa-portfolio.html', data => {
             $('#capa').html(data)
         })
         $.get('../corpos/portfolio.html', data => {
