@@ -4,7 +4,7 @@ $(document).ready(() => {
 
     $('#quem-somos').on('click', () => {
         $('#quem-somos').addClass('link-ativo');
-        $.get('capas/capa-quem-somos.html', data => {
+        $.get('./capas/capa-quem-somos.html', data => {
             $('#capa').html(data)
         })
         $.get('../corpos/quem-somos.html', data => {
