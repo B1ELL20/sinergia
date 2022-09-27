@@ -4,10 +4,10 @@ $(document).ready(() => {
 
     $('#quem-somos').on('click', () => {
         $('#quem-somos').addClass('link-ativo');
-        $.get('./capas/capa-quem-somos.html', data => {
+        $.get('https://b1ell20.github.io/sinergia/capas/capa-quem-somos.html', data => {
             $('#capa').html(data)
         })
-        $.get('../corpos/quem-somos.html', data => {
+        $.get('https://b1ell20.github.io/sinergia/corpos/quem-somos.html', data => {
             $('#corpo').html(data)
         })
     })
@@ -37,7 +37,7 @@ $(document).ready(() => {
         $.get('./sinergia/capas/capa-clientes.html', data => {
             $('#capa').html(data)
         })
-        $.get('../corpos/clientes.html', data => {
+        $.get('https://b1ell20.github.io/sinergia/corpos/clientes.html', data => {
             $('#corpo').html(data)
         })
     })
