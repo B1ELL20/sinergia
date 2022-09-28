@@ -57,7 +57,7 @@ $(document).ready(() => {
     $('#engenharia').on('click', () => {
         $('.botao-cliente').removeClass('btn-ativo');
         $('#engenharia').addClass('btn-ativo');
-        $.get('../galerias/galeria-engenharia.html', data => {
+        $.get('galerias/galeria-engenharia.html', data => {
             $('#galeria').html(data)
         })
     })
@@ -65,7 +65,7 @@ $(document).ready(() => {
     $('#saude').on('click', () => {
         $('.botao-cliente').removeClass('btn-ativo');
         $('#saude').addClass('btn-ativo');
-        $.get('../galerias/galeria-saude.html', data => {
+        $.get('galerias/galeria-saude.html', data => {
             $('#galeria').html(data)
         })
     })
@@ -73,7 +73,7 @@ $(document).ready(() => {
     $('#comercial').on('click', () => {
         $('.botao-cliente').removeClass('btn-ativo');
         $('#comercial').addClass('btn-ativo');
-        $.get('../galerias/galeria-comercial.html', data => {
+        $.get('galerias/galeria-comercial.html', data => {
             $('#galeria').html(data)
         })
     })
@@ -81,7 +81,7 @@ $(document).ready(() => {
     $('#industrial').on('click', () => {
         $('.botao-cliente').removeClass('btn-ativo');
         $('#industrial').addClass('btn-ativo');
-        $.get('../galerias/galeria-industrial.html', data => {
+        $.get('galerias/galeria-industrial.html', data => {
             $('#galeria').html(data)
         })
     })
@@ -89,7 +89,7 @@ $(document).ready(() => {
     $('#agropecuaria').on('click', () => {
         $('.botao-cliente').removeClass('btn-ativo');
         $('#agropecuaria').addClass('btn-ativo');
-        $.get('../galerias/galeria-agropecuaria.html', data => {
+        $.get('galerias/galeria-agropecuaria.html', data => {
             $('#galeria').html(data)
         })
     })
@@ -97,7 +97,7 @@ $(document).ready(() => {
     $('#educacao').on('click', () => {
         $('.botao-cliente').removeClass('btn-ativo');
         $('#educacao').addClass('btn-ativo');
-        $.get('../galerias/galeria-educacao.html', data => {
+        $.get('galerias/galeria-educacao.html', data => {
             $('#galeria').html(data)
         })
     })
