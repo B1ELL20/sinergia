@@ -52,6 +52,49 @@ $(document).ready(() => {
         })
     })
 
+
+    //LINKS E BOTOES DA HOME
+
+    $('.link-serv').on('click', () => {
+        $.get('capas/capa-servicos.html', data => {
+            $('#capa').html(data)
+        })
+        $.get('corpos/servicos.html', data => {
+            $('#corpo').html(data)
+        })
+    })
+
+    $('#btn-portfolio').on('click', () => {
+        $.get('capas/capa-portfolio.html', data => {
+            $('#capa').html(data)
+        })
+        $.get('corpos/portfolio.html', data => {
+            $('#corpo').html(data)
+        })
+    })
+
+    $('#btn-comece-ja').on('click', () => {
+        $.get('capas/capa-contato.html', data => {
+            $('#capa').html(data)
+        })
+        $.get('corpos/contato.html', data => {
+            $('#corpo').html(data)
+        })
+    })
+
+    $('.botao-mais').on('click', () => {
+        window.location.href = '#secao-servicos';
+    })
+
+    $('#btn-serv').on('click', () => {
+        $.get('capas/capa-servicos.html', data => {
+            $('#capa').html(data)
+        })
+        $.get('corpos/servicos.html', data => {
+            $('#corpo').html(data)
+        })
+    })
+
     // Clientes
 
     $('#engenharia').on('click', () => {
