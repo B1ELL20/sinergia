@@ -39,6 +39,11 @@ tr {
     padding: 10px;
 }
 
+.img-email {
+    width: 400px;
+    margin-top: 10%;
+}
+
 /*///////////////////////////////////// RESPONSIVIDADE ////////////////////////////////////////////*/
 
 @media (max-width: 500px) {
