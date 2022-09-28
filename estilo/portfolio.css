@@ -1,0 +1,47 @@
+
+/*/////////////////////////// PORTFOLIO  /////////////////////////////*/
+
+.capa-portfolio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/electrician-ga12888e86_1280.jpg);
+    background-position: center;
+}
+
+.botao-download {
+    font-size: 25px;
+    background-color: var(--cor-destaque);
+    color: white;
+    padding: 20px;
+    display: block;
+    margin: 100px auto;
+    border: none;
+}
+
+.botao-download:hover {
+    background-color: var(--cor-destaque);
+}
+
+.texto-portfolio h2 {
+    font-size: 50px;
+}
+
+.texto-portfolio p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.portfolio {
+    padding-top: 10%;
+}
+
+.portfolio img {
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+}
+
+@media (max-width: 300px) {
+
+    #img-portfolio {
+        width: 250px;
+    }
+}

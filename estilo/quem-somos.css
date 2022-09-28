@@ -1,0 +1,72 @@
+/*//////// SOBRE NOS //////*/
+
+.capa-sobre-nos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/capa-sobre-nos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre-nos {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.conteudo-sn {
+    margin-top: 3px;
+}
+
+.caixa-sn {
+    display: flex;
+}
+
+.box-sn {
+    width: 50%;
+    padding: 10px;
+}
+
+.caixa-sn h3 {
+    color: var(--cor-destaque);
+    padding-top: 5px;
+}
+
+.caixa-sn p {
+    color: rgb(85, 85, 85);;
+    font-size: 18px;
+}
+
+.icone-sn {
+    color: var(--cor-destaque);
+    font-size: 35px;
+    padding: 0px 10px;
+}
+
+.nossa-historia {
+    padding-top: 10%;
+    background-color: rgb(250, 250, 250);
+}
+
+.conteudo-historia {
+    border-left: 2px solid var(--cor-destaque);
+    margin: 0px 10%;
+    padding-left: 20px;
+}
+
+.img-hitoria {
+    margin-bottom: 10%;
+}
+
+.conteudo-historia p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*///////////////////////////////////// RESPONSIVIDADE ////////////////////////////////////////////*/
+
+@media (max-width: 380px) {
+
+    #img-logo  img{
+        display: block;
+        margin: 50px auto;
+        width: 300px;
+    }
+}

@@ -1,0 +1,87 @@
+/*//////// CLIENTES //////*/
+
+.capa-clientes {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/capa-clientes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-clientes {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.tipo-cliente {
+    width: 15%;
+}
+
+.tipo-cliente button {
+    border: 2px solid var(--cor-destaque);
+    background-color: white;
+    color: var(--cor-destaque);
+    width: 100%;
+    padding: 10px;
+}
+
+.tipo-cliente button:hover {
+    background-color: var(--cor-destaque);
+    color: white;
+}
+
+.btn-ativo {
+    background-color: var(--cor-destaque) !important;
+    color: white !important;
+}
+
+.caixa-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caixa-logo {
+    margin: 20px 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*///////////////////////////////////// RESPONSIVIDADE ////////////////////////////////////////////*/
+
+@media (max-width: 500px) {
+
+    .tipo-cliente {
+        margin: 5% 0px;
+        width: 40%;
+    }
+
+    #img-logo  img{
+        display: block;
+        margin: 50px auto;
+        width: 300px;
+    }
+
+    .caixa-logo {
+        width: 100%;
+    }
+
+    .img-cliente {
+        height: 200px;
+        display: block;
+        margin: auto;
+    }
+
+    .img-logo-grande {
+        height: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .img-logo-mt-grande {
+        height: 50px;
+        display: block;
+        margin: auto;
+    }    
+}

@@ -1,0 +1,147 @@
+
+/*//////////////////////////// SERVICOS ///////////////////////////*/
+
+.capa-servicos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/capa-servicos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.servico-box {
+    margin: 5% 0px;
+    padding: 5%;
+    text-align: center;
+}
+
+.inv {
+    background-color: rgb(241, 241, 241);
+}
+
+.servico-box h3 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: var(--cor-destaque);
+}
+
+.servico-box p {
+    font-size: 20px;
+    color: rgb(160, 160, 160);
+}
+
+.servico-imagem img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.qualidade-servicos {
+    background-image: linear-gradient(rgba(18, 87, 155, 0.7), rgb(18, 86, 155, 0.7)), url(../imagens/fundo-qualidades.jpg);
+    background-size: cover;
+    height: 45vh;
+    padding: 30px;
+    margin: 5% 0px;
+}
+
+.caixa-qualidades {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+
+.subcaixa-qualidade {
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    color: white;
+}
+
+.icone-qualidade {
+    padding-right: 10px;
+    font-size: 60px;
+}
+
+.conteudo-qualidade {
+    padding-top: 10px;
+}
+
+.serv-inv {
+    background-color:  rgb(240, 240, 240);
+}
+
+.serv-inv p {
+    color:  rgb(140, 140, 140)
+}
+
+#baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+    display: block;
+    width: 450px;
+}
+
+/*///////////////////////////////////// RESPONSIVIDADE ////////////////////////////////////////////*/
+
+@media (max-width: 1050px) {
+    #baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+        display: block;
+        width: 400px;
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .serv-inv {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .qualidade-servicos {
+        height: 75vh;
+    }
+
+    #baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+        display: block;
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .serv-inv {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .qualidade-servicos {
+        height: 70vh;
+    }
+
+    #baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+        display: block;
+        width: 330px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .qualidade-servicos {
+        height: 85vh;
+    }
+
+    #baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+        display: block;
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    
+    #baixa-tensao, #subestacao, #pde, #spda, #distribuicao, #cabeamento, #laudos, #consultoria, #energia-solar {
+        display: block;
+        width: 230px;
+    }
+
+    .qualidade-servicos {
+        height: 90vh;
+    }
+}
+

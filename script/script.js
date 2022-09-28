@@ -4,50 +4,50 @@ $(document).ready(() => {
 
     $('#quem-somos').on('click', () => {
         $('#quem-somos').addClass('link-ativo');
-        $.get('https://b1ell20.github.io/sinergia/capas/capa-quem-somos.html', data => {
+        $.get('capas/capa-quem-somos.html', data => {
             $('#capa').html(data)
         })
-        $.get('https://b1ell20.github.io/sinergia/corpos/quem-somos.html', data => {
+        $.get('corpos/quem-somos.html', data => {
             $('#corpo').html(data)
         })
     })
 
     $('#servicos').on('click', () => {
         $('#servicos').addClass('link-ativo');
-        $.get('sinergia/capas/capa-servicos.html', data => {
+        $.get('capas/capa-servicos.html', data => {
             $('#capa').html(data)
         })
-        $.get('../corpos/servicos.html', data => {
+        $.get('corpos/servicos.html', data => {
             $('#corpo').html(data)
         })
     })
 
     $('#portfolio').on('click', () => {
         $('#portfolio').addClass('link-ativo');
-        $.get('../sinergia/capas/capa-portfolio.html', data => {
+        $.get('capas/capa-portfolio.html', data => {
             $('#capa').html(data)
         })
-        $.get('../corpos/portfolio.html', data => {
+        $.get('corpos/portfolio.html', data => {
             $('#corpo').html(data)
         })
     })
 
     $('#clientes').on('click', () => {
         $('#clientes').addClass('link-ativo');
-        $.get('./sinergia/capas/capa-clientes.html', data => {
+        $.get('capas/capa-clientes.html', data => {
             $('#capa').html(data)
         })
-        $.get('https://b1ell20.github.io/sinergia/corpos/clientes.html', data => {
+        $.get('corpos/clientes.html', data => {
             $('#corpo').html(data)
         })
     })
 
     $('#contato').on('click', () => {
         $('#contato').addClass('link-ativo');
-        $.get('../capas/capa-contato.html', data => {
+        $.get('capas/capa-contato.html', data => {
             $('#capa').html(data)
         })
-        $.get('../corpos/contato.html', data => {
+        $.get('corpos/contato.html', data => {
             $('#corpo').html(data)
         })
     })

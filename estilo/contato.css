@@ -1,0 +1,55 @@
+/*//////// CONTATO //////*/
+
+.capa-contato {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/capa-contato.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gm {
+    font-size: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+.gm h3 {
+    color: var(--cor-destaque);
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 30px 0px;
+}
+
+.mapa {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.tabela {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.icones-tabela {
+    color: var(--cor-destaque);
+}
+
+tr {
+    display: block;
+    padding: 10px;
+}
+
+/*///////////////////////////////////// RESPONSIVIDADE ////////////////////////////////////////////*/
+
+@media (max-width: 500px) {
+
+    .mapa-iframe {
+        display: block;
+        margin: auto;
+        width: 95%;
+    }
+
+    .gm h3 {
+        text-align: center;
+    }
+}
