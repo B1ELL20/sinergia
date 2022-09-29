@@ -108,7 +108,7 @@ $(document).ready(() => {
     $('#saude').on('click', () => {
         $('.botao-cliente').removeClass('btn-ativo');
         $('#saude').addClass('btn-ativo');
-        $.get('sinergia/galerias/galeria-saude.html', data => {
+        $.get('galerias/galeria-saude.html', data => {
             $('#galeria').html(data)
         })
     })
