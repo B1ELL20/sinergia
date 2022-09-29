@@ -100,7 +100,7 @@ $(document).ready(() => {
     $('#engenharia').on('click', () => {
         $('.botao-cliente').removeClass('btn-ativo');
         $('#engenharia').addClass('btn-ativo');
-        $.get('galerias/galeria-engenharia.html', data => {
+        $.get('./galerias/galeria-engenharia.html', data => {
             $('#galeria').html(data)
         })
     })
@@ -108,7 +108,7 @@ $(document).ready(() => {
     $('#saude').on('click', () => {
         $('.botao-cliente').removeClass('btn-ativo');
         $('#saude').addClass('btn-ativo');
-        $.get('galerias/galeria-saude.html', data => {
+        $.get('sinergia/galerias/galeria-saude.html', data => {
             $('#galeria').html(data)
         })
     })
@@ -116,7 +116,7 @@ $(document).ready(() => {
     $('#comercial').on('click', () => {
         $('.botao-cliente').removeClass('btn-ativo');
         $('#comercial').addClass('btn-ativo');
-        $.get('galerias/galeria-comercial.html', data => {
+        $.get('../galerias/galeria-comercial.html', data => {
             $('#galeria').html(data)
         })
     })
