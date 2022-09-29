@@ -40,13 +40,53 @@ tr {
 }
 
 .img-email {
+    display: block;
+    margin: auto;
     width: 400px;
     margin-top: 10%;
+}
+
+.contato-formulario {
+    padding-top: 2%;
+    background: linear-gradient(rgba(20, 100, 179, 0.8), rgba(20, 100, 179, 0.8)), url(../imagens/fundo-contato.jpg);
+    border-radius: 10px;
+    padding-bottom: 5%;
+    margin: auto;
+}
+
+.input-formulario {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 5% auto;
+    border: 1px solid var(--cor-destaque);
+}
+
+.botao-formulario {
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+    width: 60%;
 }
 
 /*///////////////////////////////////// RESPONSIVIDADE ////////////////////////////////////////////*/
 
 @media (max-width: 500px) {
+
+    .img-email {
+        width: 300px;
+    }
+
+    .contato-formulario {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 90%;
+    }
 
     .mapa-iframe {
         display: block;

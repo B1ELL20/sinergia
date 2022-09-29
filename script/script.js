@@ -145,6 +145,19 @@ $(document).ready(() => {
         })
     })
 
+    // Links serviços rodapé
+
+    $('.rp-serv').on('click', () => {
+        $.get('capas/capa-servicos.html', data => {
+            $('#capa').html(data)
+        })
+        $.get('corpos/servicos.html', data => {
+            $('#corpo').html(data)
+        })
+
+        window.scrollTo(0,0);
+    })
+
     if (window.innerWidth < 1000) {
         document.getElementById('contato-sup').innerHTML = '';
     }

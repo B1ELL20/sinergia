@@ -341,6 +341,10 @@ footer {
     pointer-events: initial;
 }
 
+.rp-serv {
+    cursor: pointer;
+}
+
 /*///////////////////////////////////// RESPONSIVIDADE ////////////////////////////////////////////*/
 
 
