@@ -62,11 +62,10 @@
 
 .qualidade-quem-somos {
     margin: auto;
-    width: 100%;
     height: 100%;
     border: 3px solid white;
     border-radius: 10px;
-    padding: 25px;
+    padding: 10px;
     font-size: 18px;
     color: white;
     text-shadow: 0px 0px 10px black;
@@ -102,7 +101,7 @@
 
 .texto-valores p {
     text-align: center;
-    padding: 1px;
+    padding: 3px;
     width: 50%;
 }
 

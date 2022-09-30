@@ -77,6 +77,10 @@
     width: 450px;
 }
 
+.caixa-imagem-servico {
+    padding-top: 5%;
+}
+
 /*///////////////////////////////////// RESPONSIVIDADE ////////////////////////////////////////////*/
 
 @media (max-width: 1050px) {
@@ -119,6 +123,10 @@
         display: block;
         width: 330px;
     }
+
+    .caixa-imagem-servico {
+        padding-top: 1%;
+    }
 }
 
 @media (max-width: 380px) {
@@ -131,6 +139,10 @@
         display: block;
         width: 300px;
     }
+
+    .caixa-imagem-servico {
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 300px) {
@@ -142,6 +154,10 @@
 
     .qualidade-servicos {
         height: 90vh;
+    }
+
+    .caixa-imagem-servico {
+        padding-top: 0px;
     }
 }
 
