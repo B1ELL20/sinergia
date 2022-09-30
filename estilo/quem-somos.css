@@ -94,15 +94,8 @@
     padding: 10px;
 }
 
-.texto-valores {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .texto-valores p {
     text-align: center;
-    padding: 3px;
-    width: 50%;
 }
 
 .secao-qualidades-quem-somos {
